@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Yousaf — AI Engineer &amp; Data Scientist</title>
+<meta name="description" content="Muhammad Yousaf — BSCS AI Specialist, AI Engineer, Full-Stack Developer &amp; Data Scientist portfolio.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Golden particle / grid canvas (fixed, behind everything) ===== -->
+<canvas id="fx-canvas"></canvas>
+<div class="grid-floor" aria-hidden="true"></div>
+
+<!-- ===== Nav ===== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">YOUSAF<span class="dot">.</span>AI</a>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-ghost">Hire Me</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="badge"><span class="badge-dot"></span>BSCS — AI Specialist &amp; Data Scientist</p>
+
+        <h1 class="headline">
+          I build intelligent<br>
+          systems <span class="amp">&amp;</span> digital<br>
+          experiences.
+        </h1>
+
+        <p class="sub">
+          Pioneering AI engineering, web &amp; mobile architecture, data analytics,
+          and performance-driven digital marketing — for products that think
+          as sharply as they look.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-solid">Explore My Work</a>
+          <a href="assets/resume.pdf" download class="btn btn-outline">Download Resume</a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="meta-item">
+            <span class="meta-num">03</span>
+            <span class="meta-label">Core disciplines<br>AI · Web · Marketing</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-num">01</span>
+            <span class="meta-label">Live platform<br>Veloura, in production</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="spotlight" aria-hidden="true"></div>
+        <div class="video-frame">
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="assets/video/poster.jpg">
+            <source src="assets/video/hero-walk.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="scanline" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ===== About / Credentials & Experience timeline ===== -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Credentials that back the code.</h2>
+        <p>Formal training across AI engineering, computer science and digital marketing.</p>
+      </div>
+
+      <div class="cred-strip" id="experience">
+        <article class="cred-card">
+          <span class="cred-index">01</span>
+          <h3>DataCamp</h3>
+          <p class="cred-role">Associate AI for Data Science &amp; AI Engineering Track</p>
+          <p class="cred-desc">Applied statistics, machine learning pipelines and production-grade AI engineering practices, verified through DataCamp's certification track.</p>
+        </article>
+
+        <article class="cred-card">
+          <span class="cred-index">02</span>
+          <h3>NAVTTC</h3>
+          <p class="cred-role">Certified Digital Marketing Specialist</p>
+          <p class="cred-desc">SEO and social media marketing certification — technical growth skills paired with engineering, not siloed from it.</p>
+        </article>
+
+        <article class="cred-card">
+          <span class="cred-index">03</span>
+          <h3>BSCS — AI Specialization</h3>
+          <p class="cred-role">Computer Science &amp; Artificial Intelligence Core</p>
+          <p class="cred-desc">Bachelor's coursework spanning algorithms, systems and applied AI, forming the foundation for everything shipped below.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>What I work with.</h2>
+        <p>Three disciplines, one build process — from model to interface to audience.</p>
+      </div>
+
+      <div class="skills-grid" id="tilt-grid">
+        <article class="skill-card" data-tilt>
+          <div class="skill-card-glow"></div>
+          <h3>AI &amp; Data Science</h3>
+          <ul class="skill-tags">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Machine Learning</li>
+            <li>AI Engineering</li>
+            <li>Data Analytics</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </article>
+
+        <article class="skill-card" data-tilt>
+          <div class="skill-card-glow"></div>
+          <h3>Web &amp; Mobile Development</h3>
+          <ul class="skill-tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Full-Stack Development</li>
+            <li>Mobile App Development</li>
+          </ul>
+        </article>
+
+        <article class="skill-card" data-tilt>
+          <div class="skill-card-glow"></div>
+          <h3>Digital Marketing</h3>
+          <ul class="skill-tags">
+            <li>SEO</li>
+            <li>Social Media Marketing</li>
+            <li>Performance Marketing</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-head">
+        <h2>Selected work.</h2>
+        <p>Shipped platforms, active builds, and the models running underneath.</p>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card project-featured" data-tilt>
+          <div class="project-status status-live">Live</div>
+          <div class="project-body">
+            <h3>Veloura</h3>
+            <p>High-performance, ultra-luxury restaurant web application — built for speed, mood and conversion in equal measure.</p>
+            <a href="https://veloura-lyart.vercel.app" target="_blank" rel="noopener" class="project-link">
+              veloura-lyart.vercel.app <span class="arrow">↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" data-tilt>
+          <div class="project-status status-dev">In Development</div>
+          <div class="project-body">
+            <h3>AI Life &amp; Health Assistant</h3>
+            <p>Next-gen personal assistant that manages daily tasks, tracks personalised medicine schedules, and optimises health &amp; diet plans.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-tilt>
+          <div class="project-status status-research">Research</div>
+          <div class="project-body">
+            <h3>Data &amp; AI Models</h3>
+            <p>DataCamp capstone projects and applied AI pipelines — the experiments that feed everything else on this page.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="section-inner">
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <h2>Initialize<br>transmission.</h2>
+          <p>Open to AI engineering roles, freelance builds, and anything that needs both a model and a great interface around it.</p>
+
+          <ul class="contact-links">
+            <li><a href="mailto:hello@yousaf.ai">hello@yousaf.ai <span class="arrow">↗</span></a></li>
+            <li><a href="tel:+920000000000">+92 000 0000000 <span class="arrow">↗</span></a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub <span class="arrow">↗</span></a></li>
+            <li><a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a></li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram <span class="arrow">↗</span></a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="f-name">Name</label>
+            <input type="text" id="f-name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="f-message">Message</label>
+            <textarea id="f-message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-solid btn-full">
+            <span>Execute Dispatch</span>
+          </button>
+          <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>© <span id="year"></span> Muhammad Yousaf. Built with intent.</span>
+      <a href="#top" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

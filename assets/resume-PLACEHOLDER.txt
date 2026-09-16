@@ -1,0 +1,4 @@
+Put your real resume PDF here and name it "resume.pdf"
+(same folder as this file: assets/resume.pdf)
+
+The "Download Resume" button in index.html already points to assets/resume.pdf
